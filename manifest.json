@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Accessibility Helper",
+  "version": "1.0",
+  "description": "Extensão de acessibilidade para aumentar/diminuir fonte, leitura de texto, tradução para Libras, modo escuro e inversão de cores.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tts"
+  ],
+  "background": {
+    "service_worker": "popup.js"
+  }
+}
