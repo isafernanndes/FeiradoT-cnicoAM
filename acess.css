@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: 'Poppins', sans-serif; 
+    background-color: #efd0ce ;
+    color: #333;
+    overflow-x: hidden;
+}  
+
+header {
+    background-color: #555;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.logo {
+    width: 75px; 
+    height: auto;
+    margin: 10px;  
+}
+
+.nome {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0e68c;
+}
+
+main {
+    margin-top: 100px;
+    padding: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.highlight {
+    background-color: #eef6f9;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}

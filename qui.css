@@ -1,0 +1,126 @@
+body {  
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #fbe870;  
+}  
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #fdf9c4;
+    padding-top: 2px;
+}
+ 
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+.sidebar ul li {
+    margin: 10px 0;
+}
+ 
+.sidebar ul li button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fdf9c4;
+    color: #987D61;
+    position: inher;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+ 
+.sidebar ul li button:hover {
+    color: #555;
+}
+ 
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+ 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+ 
+.tabela-ligaç {
+    width: 100%; /* Ajusta a largura para 100% do elemento pai */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 2px solid #f7f72d; /* Adiciona uma borda */
+    border-radius: 10px; /* Arredonda os cantos */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+header {
+    background-color: #555;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo {
+    width: 75px; 
+    height: auto;
+    margin: 10px;  
+}
+
+.nome {  
+    color: #fff;
+    font-size: 36px;
+    text-align: left;
+    margin-right: 80%;
+}  
+
+nav ul {  
+    list-style: none;     
+    display: flex;
+    gap: 15px;
+}  
+
+nav ul li {  
+    margin: 0 10px;   
+}  
+
+nav ul li a {  
+    text-decoration: none; 
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {  
+    color: #f0e68c;
+}
+
+.reacoes{
+    width: 100%; 
+    height: 250px;
+    border: 2px solid #f7f72d; 
+    border-radius: 10px; 
+}

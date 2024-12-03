@@ -1,0 +1,137 @@
+body {  
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #8cc1f7;  
+}  
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #555;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.logo {
+    width: 75px; 
+    height: auto;
+    margin: 10px; 
+}
+
+.nome {  
+    color: #fff;
+    font-size: 36px;
+    margin-left: 20px; /* Ajustado para alinhar mais à direita */
+    flex-grow: 1; /* Faz o espaço entre o título e o menu expandir */
+    text-align: left;
+}  
+
+nav ul {  
+    list-style: none;     
+    display: flex;
+    gap: 15px;
+    margin: 0; /* Remove margens extras */
+    padding: 0; /* Remove espaçamento interno */
+} 
+
+nav ul li {  
+    margin: 0 10px;   
+}  
+
+nav ul li a {  
+    text-decoration: none; 
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {  
+    color: #f0e68c;
+}
+
+ 
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #177fab;
+    padding-top: 2px;
+}
+ 
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+.sidebar ul li {
+    margin: 10px 0;
+}
+ 
+.sidebar ul li button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8cc1f7;
+    color: #987D61;
+    border: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+ 
+.sidebar ul li button:hover {
+    color: #555;
+}
+ 
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+ 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+ 
+.tabela {
+    width: 80%; 
+    height: 190px;
+    border: 2px solid black; 
+    border-radius: 10px; 
+}
+
+.conteudo {
+    margin-top: 20px;
+}
+
+.frase {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #000000;
+}
+
+.frase:hover {
+    color: #177fab; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
